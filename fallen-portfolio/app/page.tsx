@@ -18,7 +18,7 @@ export default function HomePage() {
               <div className="flex items-center gap-2">
                 <span className="h-1 w-1 rounded-full bg-accent" />
                 <span className="mono-label">
-                  Systems Architecture — Security — Game Networks
+                  Crazy developer!
                 </span>
               </div>
 
@@ -28,10 +28,10 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-6 max-w-xl text-base md:text-lg text-ink-dim">
-                I&apos;m Fallen — Lead Systems Architect &amp; Operations
-                Manager, a developer across TimeNetwork and Solaryn Network,
-                and a pentester who tests the same kind of infrastructure I
-                build. Based in {site.location}.
+                I&apos;m I'm Fallen, a Lead Systems Architect, Operations
+                Manager, and a developer, across TimeNetwork Solaryn Network,
+                and FreshSMP I build structured, scalable systems for Minecraft 
+                networks and community-driven projects. Based in {site.location}.
               </p>
 
               <div className="mt-9 flex flex-wrap items-center gap-4">
@@ -121,7 +121,7 @@ export default function HomePage() {
               <p className="text-ink-dim leading-relaxed">
                 Most problems people bring me aren&apos;t really about the
                 thing they&apos;re describing. A laggy plugin, a permissions
-                bug, a network that falls over at fifty concurrent players —
+                bug, a network that falls over at fifty concurrent players
                 the actual problem is almost always structural. I&apos;m less
                 interested in the clever one-off fix than in the framework
                 that makes the next ten fixes unnecessary.
