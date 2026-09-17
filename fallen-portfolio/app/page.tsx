@@ -139,7 +139,7 @@ export default function HomePage() {
           <RevealSection>
             <SectionHeader
               eyebrow=""
-              title="Systems built to be trusted, not just to run."
+              title="My systems and projects!"
             />
           </RevealSection>
 
