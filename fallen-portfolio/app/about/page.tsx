@@ -64,7 +64,7 @@ export default function AboutPage() {
               <p className="mt-5 max-w-3xl leading-relaxed text-ink-dim">
                 I’m currently developing My own Minecraft Project, FracturedSMP, a multi‑server Minecraft network built with a professional workflow, a full development roadmap, and a focus on player experience. 
                 I also design staff systems, operational pipelines, and technical frameworks for servers that want to run smoothly and scale properly.
-                I’m not a “god tier” developer, I’m a practical one. I build clean systems, solve problems quickly and effiecently, and keep projects moving. My work is intentional, organised, and built to last
+                I’m not a “god tier” developer, I’m a practical one. I build clean systems, solve problems quickly and effiecently, and keep projects moving. My work is intentional, organised, and built to last.
                 
                 If you’re looking for someone who can bring structure, clarity, and technical direction to your project, that’s what I do best. :)
               </p>
