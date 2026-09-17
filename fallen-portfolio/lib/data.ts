@@ -51,19 +51,19 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    org: "Fallen",
+    org: "FreshSMP",
     role: "Lead Systems Architect & Operations Manager",
-    status: "Active",
+    status: "Resigned",
     summary:
-      "Own the architecture and day-to-day operations across every project under Fallen. Set technical direction, design the frameworks other developers build on top of, and make the operational calls — staffing, process, priorities — that keep things moving without me in every conversation.",
+      "As FreshSMP’s Lead Systems Architect & Operations Manager, I handle both the tech and the day‑to‑day operations. I set the direction, build the systems our devs work inside, and make the calls on staffing, workflow, and priorities. My focus is making sure things keep moving even when I’m offline, teams should run because the structure is solid, not because I’m watching over them.",
     tags: ["Architecture", "Operations", "Leadership"],
   },
   {
     org: "Solaryn Network",
     role: "Developer",
-    status: "Active",
+    status: "Resigned",
     summary:
-      "Build and maintain core plugin systems — economy, permissions, cross-server data sync. Work close to the infrastructure layer: the parts that have to be correct before anything player-facing can be trusted.",
+      "As the developer at Solaryn Network my job was to Build and maintain core plugin systems economy, permissions, cross-server data sync. Work close to the infrastructure layer: the parts that have to be correct before anything player-facing can be trusted.",
     tags: ["Java / Kotlin", "Plugin Architecture", "Backend"],
   },
   {
@@ -71,24 +71,24 @@ export const experience: Experience[] = [
     role: "Developer",
     status: "Active",
     summary:
-      "Similar remit to Solaryn, different codebase and different constraints. Contribute to shared systems design and handle plugin work that has to survive contact with a live player base, not just a test server.",
+      "Similar to my work at Solaryn, but with a different codebase and a new set of constraints. I contribute to shared systems design and handle plugin work that needs to hold up under real players not just on a controlled test server. Everything I build has to survive live gameplay, unpredictable player behavior, and real‑time load.",
     tags: ["Java / Kotlin", "Systems Design", "Live Ops"],
   },
   {
-    org: "Independent",
+    org: "My own work ;) ",
     role: "Pentester",
     status: "Ongoing",
     summary:
-      "Test infrastructure and applications for the kind of gaps that don't show up until someone's actually looking for them — network exposure, auth flow weaknesses, permission boundaries that don't hold under pressure. Write reports people can act on, not just a list of findings.",
+      "I Test infrastructure and applications for the kind of gaps that don't show up until someone's actually looking for them network exposure, locate and Identify auth flow weaknesses, permission boundaries that don't hold under pressure. Finally, Write reports people can act on.",
     tags: ["Network Security", "Recon", "Reporting"],
   },
   {
-    org: "Independent",
-    role: "Game Developer",
+    org: "FracturedSMP",
+    role: " Developer & Owner",
     status: "Ongoing",
     summary:
-      "Build small original games and tools outside of network and plugin work, mostly to keep the habit of designing something from a blank canvas instead of extending an existing system.",
-    tags: ["Game Design", "Systems", "Prototyping"],
+      "FracturedSMP is My multi‑server Minecraft network built with a structured technical framework, scalable systems, and a polished gameplay experience. I lead the architecture, gameplay design, and operations, creating stable, player‑focused environments across Survival, Lifesteal, SkyGen, and the network’s core infrastructure.",
+    tags: ["Ownership", "Systems", "Prototyping"],
   },
 ];
 
