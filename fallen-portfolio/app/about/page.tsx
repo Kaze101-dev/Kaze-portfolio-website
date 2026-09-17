@@ -6,7 +6,7 @@ import SectionHeader from "@/components/SectionHeader";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Fallen's approach to systems architecture, leadership and security — structure first, everything else follows.",
+    "Fallen's approach to systems architecture, leadership and security structure first, everything else follows.",
 };
 
 const principles = [
@@ -38,9 +38,9 @@ export default function AboutPage() {
       <section className="pt-20 pb-16 md:pt-24">
         <Container>
           <RevealSection>
-            <span className="mono-label">{"// About"}</span>
+            <span className="mono-label">{"About Me"}</span>
             <h1 className="mt-4 max-w-3xl text-4xl md:text-5xl font-medium text-balance">
-              Everything is a system. I just decide where the boundaries go.
+              I have not failed. I've just found 10,000 ways that won't work.
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-ink-dim">
               I run architecture and operations under Fallen, build backend
@@ -59,14 +59,14 @@ export default function AboutPage() {
               <p className="max-w-3xl leading-relaxed text-ink-dim">
                 Most problems people bring me aren&apos;t really about the
                 thing they&apos;re describing. A laggy plugin, a permissions
-                bug, a network that falls over at fifty concurrent players —
+                bug, a network that falls over at fifty concurrent players
                 the actual problem is almost always structural. Something was
                 built without a clear line between the parts that change
                 often and the parts that shouldn&apos;t move at all. Fix the
                 structure and the symptom usually disappears on its own.
               </p>
               <p className="mt-5 max-w-3xl leading-relaxed text-ink-dim">
-                That&apos;s the lens I bring to everything under Fallen —
+                That&apos;s the lens I bring to everything under Fallen,
                 TimeNetwork, Solaryn Network, my own tooling, the reports I
                 write after an engagement. I&apos;d rather spend three extra
                 days on a framework than three hours a week maintaining
@@ -116,7 +116,7 @@ export default function AboutPage() {
               </h2>
               <p className="mt-5 leading-relaxed text-ink-dim">
                 Running operations for Fallen means I spend as much time on
-                process as I do on code — who owns what, how decisions get
+                process as I do on code who owns what, how decisions get
                 made when I&apos;m not in the room, what happens when
                 something breaks at 2am NZST and I&apos;m asleep. The teams I
                 like working with are the ones that don&apos;t need me to
@@ -132,7 +132,7 @@ export default function AboutPage() {
               <p className="mt-5 leading-relaxed text-ink-dim">
                 Game development is where I keep the practice of building for
                 the sake of it instead of for a deadline. It&apos;s also
-                where a lot of this started — you learn fast that a game with
+                where a lot of this started you learn fast that a game with
                 elegant mechanics and a fragile backend is still a fragile
                 game.
               </p>
