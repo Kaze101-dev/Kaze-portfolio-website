@@ -170,7 +170,7 @@ export default function HomePage() {
             <div className="rounded-md border border-line bg-surface px-8 py-14 text-center md:px-16">
               <span className="mono-label">Contact</span>
               <h2 className="mt-3 text-3xl md:text-4xl font-medium text-balance">
-                Reach out on Discord — it&apos;s the fastest way to find me.
+                Reach out on Discord it&apos;s the fastest way to find me.
               </h2>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <Link
