@@ -53,7 +53,7 @@ export default function HomePage() {
               <div className="rounded-md border border-line bg-surface p-5 font-mono text-xs">
                 <div className="flex items-center justify-between border-b border-line-soft pb-3">
                   <span className="text-ink-faint uppercase tracking-[0.1em]">
-                    Telemetry
+                    Infomation -
                   </span>
                   <StatusBadge label="My Data!" />
                 </div>
@@ -67,14 +67,14 @@ export default function HomePage() {
                     <dd className="text-ink-dim">{site.timezone}</dd>
                   </div>
                   <div className="flex items-center justify-between">
-                    <dt className="text-ink-faint">Focus</dt>
+                    <dt className="text-ink-faint">Focuses</dt>
                     <dd className="text-ink-dim text-right">
                       Architecture, plugins, security
                     </dd>
                   </div>
                   <div className="flex items-center justify-between">
                     <dt className="text-ink-faint">Availability</dt>
-                    <dd className="text-ink-dim">Select work</dd>
+                    <dd className="text-ink-dim">9am - 10pm</dd>
                   </div>
                 </dl>
               </div>
