@@ -16,7 +16,7 @@ export default function ExperiencePage() {
       <section className="pt-20 pb-16 md:pt-24">
         <Container>
           <RevealSection>
-            <span className="mono-label">{"// Experience"}</span>
+            <span className="mono-label">{"Experience"}</span>
             <h1 className="mt-4 max-w-2xl text-4xl md:text-5xl font-medium text-balance">
               Where the work actually happens.
             </h1>
