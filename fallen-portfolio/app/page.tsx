@@ -30,8 +30,10 @@ export default function HomePage() {
               <p className="mt-6 max-w-xl text-base md:text-lg text-ink-dim">
                 I'm Fallen, a Lead Systems Architect, Operations
                 Manager, and a developer, across TimeNetwork Solaryn Network,
-                and FreshSMP I build structured, scalable systems for Minecraft 
-                networks and community-driven projects. Based in {site.location}.
+                FreshSMP and many more. I build structured, scalable systems for Minecraft 
+                networks and community-driven projects. 
+                
+                Based in {site.location}.
               </p>
 
               <div className="mt-9 flex flex-wrap items-center gap-4">
