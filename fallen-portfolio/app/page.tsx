@@ -15,13 +15,6 @@ export default function HomePage() {
         <Container>
           <div className="grid items-center gap-16 md:grid-cols-[1.05fr_0.95fr]">
             <div>
-              <div className="flex items-center gap-2">
-                <span className="h-1 w-1 rounded-full bg-accent" />
-                <span className="mono-label">
-                  Crazy developer!
-                </span>
-              </div>
-      
               <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-medium text-balance">
                 Proffesional{" "}
                 <span className="text-ink-dim">Development services</span>
