@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 const principles = [
   {
     label: "01",
-    title: "Fix the structure, not the symptom",
-    body: "A bug report is rarely the whole story. If the same category of issue keeps resurfacing in different shapes, the fix isn't another patch — it's a boundary that was never drawn between the parts that change often and the parts that shouldn't move at all.",
+    title: "Fix the structure, not the symptom error",
+    body: "A bug report is rarely the whole story. If the same category of issue keeps happening in different ways, the fix isn't another patch or change of code it's a boundary that was never drawn between the parts that change often and the parts that shouldn't move at all.",
   },
   {
     label: "02",
@@ -23,7 +23,7 @@ const principles = [
   {
     label: "03",
     title: "Assume someone will poke at every edge",
-    body: "Pentesting sharpened how I build. Once you've spent time finding the gap between what a system is supposed to do and what it actually does, you stop trusting assumptions — including your own.",
+    body: "Pentesting sharpened how I build. Once you've spent time finding the gap between what a system is supposed to do and what it actually does, you stop trusting assumptions, including your own.",
   },
   {
     label: "04",
@@ -43,10 +43,10 @@ export default function AboutPage() {
               I have not failed. I've just found 10,000 ways that won't work.
             </h1>
             <p className="mt-6 max-w-2xl text-lg text-ink-dim">
-              I run architecture and operations under Fallen, build backend
-              and plugin systems for TimeNetwork and Solaryn Network, test
-              infrastructure for a living, and build small games in whatever
-              time is left over. Different surfaces, same underlying habit.
+              I’m Fallen a developer and operations lead who specialises in building structured,
+              scalable environments for Minecraft networks and community‑based projects.
+              I focus on clarity, stability, and long‑term growth, whether I’m designing staff frameworks, 
+              configuring plugins, or architecting full server networks.
             </p>
           </RevealSection>
         </Container>
@@ -57,20 +57,16 @@ export default function AboutPage() {
           <div className="grid gap-10 md:grid-cols-2 md:gap-x-16 md:gap-y-14">
             <RevealSection className="md:col-span-2">
               <p className="max-w-3xl leading-relaxed text-ink-dim">
-                Most problems people bring me aren&apos;t really about the
-                thing they&apos;re describing. A laggy plugin, a permissions
-                bug, a network that falls over at fifty concurrent players
-                the actual problem is almost always structural. Something was
-                built without a clear line between the parts that change
-                often and the parts that shouldn&apos;t move at all. Fix the
-                structure and the symptom usually disappears on its own.
+                I’ve worked across multiple roles including systems architect, developer, pentester, Moderation, Administration, 
+                and an operations manager. My strength isn’t just writing configs or building servers 
+                it’s creating order, direction, and structure in servers and projects that need a clear path forward.
               </p>
               <p className="mt-5 max-w-3xl leading-relaxed text-ink-dim">
-                That&apos;s the lens I bring to everything under Fallen,
-                TimeNetwork, Solaryn Network, my own tooling, the reports I
-                write after an engagement. I&apos;d rather spend three extra
-                days on a framework than three hours a week maintaining
-                whatever we shipped instead.
+                I’m currently developing My own Minecraft Project, FracturedSMP, a multi‑server Minecraft network built with a professional workflow, a full development roadmap, and a focus on player experience. 
+                I also design staff systems, operational pipelines, and technical frameworks for servers that want to run smoothly and scale properly.
+                I’m not a “god tier” developer, I’m a practical one. I build clean systems, solve problems quickly and effiecently, and keep projects moving. My work is intentional, organised, and built to last
+                
+                If you’re looking for someone who can bring structure, clarity, and technical direction to your project, that’s what I do best. :)
               </p>
             </RevealSection>
           </div>
@@ -110,22 +106,19 @@ export default function AboutPage() {
         <Container>
           <div className="grid gap-10 md:grid-cols-2 md:gap-16">
             <RevealSection>
-              <span className="mono-label">{"// Leadership"}</span>
+              <span className="mono-label">{"Leadership & Proffesionalism"}</span>
               <h2 className="mt-3 text-2xl md:text-3xl font-medium text-balance">
                 Operations is the part nobody sees.
               </h2>
               <p className="mt-5 leading-relaxed text-ink-dim">
-                Running operations for Fallen means I spend as much time on
-                process as I do on code who owns what, how decisions get
-                made when I&apos;m not in the room, what happens when
-                something breaks at 2am NZST and I&apos;m asleep. The teams I
-                like working with are the ones that don&apos;t need me to
-                function.
+                Running operations means I spend just as much time building structure as I do writing code. Who owns what,
+                how decisions get made when I’m not around, what happens when something breaks at 2am NZST and I’m asleep 
+                all of that matters as much as the technical work. The teams I enjoy working with are the ones that can function without me standing over them.
               </p>
             </RevealSection>
 
             <RevealSection delay={0.1}>
-              <span className="mono-label">{"// Outside of work"}</span>
+              <span className="mono-label">{"Outside of work"}</span>
               <h2 className="mt-3 text-2xl md:text-3xl font-medium text-balance">
                 Games are where the habit started.
               </h2>
