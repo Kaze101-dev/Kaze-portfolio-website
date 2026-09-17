@@ -23,8 +23,8 @@ export default function HomePage() {
               </div>
 
               <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-medium text-balance">
-                I design how systems hold together.{" "}
-                <span className="text-ink-dim">Then I try to break them.</span>
+                Proffesional{" "}
+                <span className="text-ink-dim">Development services</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base md:text-lg text-ink-dim">
