@@ -138,6 +138,7 @@ export default function HomePage() {
         <Container>
           <RevealSection>
             <SectionHeader
+              eyebrow="Selected work"
               title="Systems built to be trusted, not just to run."
             />
           </RevealSection>
