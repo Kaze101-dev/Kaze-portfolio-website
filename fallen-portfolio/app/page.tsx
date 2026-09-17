@@ -17,7 +17,7 @@ export default function HomePage() {
             <div>
               <h1 className="mt-5 text-4xl md:text-5xl lg:text-6xl font-medium text-balance">
                 Proffesional{" "}
-                <span className="text-ink-dim">Development services</span>
+                <span className="text-ink-dim">Development Services</span>
               </h1>
 
               <p className="mt-6 max-w-xl text-base md:text-lg text-ink-dim">
@@ -55,7 +55,7 @@ export default function HomePage() {
                   <span className="text-ink-faint uppercase tracking-[0.1em]">
                     Telemetry
                   </span>
-                  <StatusBadge label="Operational" />
+                  <StatusBadge label="My Data!" />
                 </div>
                 <dl className="mt-3 space-y-2.5">
                   <div className="flex items-center justify-between">
