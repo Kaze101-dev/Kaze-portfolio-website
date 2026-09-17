@@ -18,11 +18,11 @@ export default function ExperiencePage() {
           <RevealSection>
             <span className="mono-label">{"Experience"}</span>
             <h1 className="mt-4 max-w-2xl text-4xl md:text-5xl font-medium text-balance">
-              Where the work actually happens.
+              My work Experience
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-dim">
-              Five ongoing lines of work, all feeding the same set of habits.
-              Status reflects current involvement, not a resume date range.
+              Fallen's top Five lines of work, all feeding the same set of habits.
+              Status reflects current involvement.
             </p>
           </RevealSection>
         </Container>
