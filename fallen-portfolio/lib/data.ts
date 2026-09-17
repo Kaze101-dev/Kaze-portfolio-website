@@ -69,7 +69,7 @@ export const experience: Experience[] = [
   {
     org: "TimeNetwork",
     role: "Developer",
-    status: "Active",
+    status: "Resigned",
     summary:
       "Similar to my work at Solaryn, but with a different codebase and a new set of constraints. I contribute to shared systems design and handle plugin work that needs to hold up under real players not just on a controlled test server. Everything I build has to survive live gameplay, unpredictable player behavior, and real‑time load.",
     tags: ["Java / Kotlin", "Systems Design", "Live Ops"],
@@ -77,7 +77,7 @@ export const experience: Experience[] = [
   {
     org: "My own work ;) ",
     role: "Pentester",
-    status: "Ongoing",
+    status: "Active",
     summary:
       "I Test infrastructure and applications for the kind of gaps that don't show up until someone's actually looking for them network exposure, locate and Identify auth flow weaknesses, permission boundaries that don't hold under pressure. Finally, Write reports people can act on.",
     tags: ["Network Security", "Recon", "Reporting"],
@@ -85,7 +85,7 @@ export const experience: Experience[] = [
   {
     org: "FracturedSMP",
     role: " Developer & Owner",
-    status: "Ongoing",
+    status: "Active",
     summary:
       "FracturedSMP is My multi‑server Minecraft network built with a structured technical framework, scalable systems, and a polished gameplay experience. I lead the architecture, gameplay design, and operations, creating stable, player‑focused environments across Survival, Lifesteal, SkyGen, and the network’s core infrastructure.",
     tags: ["Ownership", "Systems", "Prototyping"],
