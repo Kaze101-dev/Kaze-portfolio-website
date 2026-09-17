@@ -106,9 +106,9 @@ export default function HomePage() {
         <Container>
           <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:gap-16">
             <RevealSection>
-              <span className="mono-label">{"// How I work"}</span>
+              <span className="mono-label">{"How I work"}</span>
               <h2 className="mt-3 text-2xl md:text-3xl font-medium text-balance">
-                Structure first. Everything else follows.
+                Quality, over Quantity!
               </h2>
             </RevealSection>
 
@@ -116,7 +116,7 @@ export default function HomePage() {
               <p className="text-ink-dim leading-relaxed">
                 Most problems people bring me aren&apos;t really about the
                 thing they&apos;re describing. A laggy plugin, a permissions
-                bug, a network that falls over at fifty concurrent players
+                bug, a network that shuts down at fifty concurrent players
                 the actual problem is almost always structural. I&apos;m less
                 interested in the clever one-off fix than in the framework
                 that makes the next ten fixes unnecessary.
@@ -125,7 +125,7 @@ export default function HomePage() {
                 href="/about"
                 className="mt-5 inline-flex items-center gap-2 text-sm text-accent hover:gap-3 transition-all"
               >
-                Read the full philosophy
+                Read the full philosophy..
                 <span aria-hidden>→</span>
               </Link>
             </RevealSection>
