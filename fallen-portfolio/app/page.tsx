@@ -28,7 +28,7 @@ export default function HomePage() {
               </h1>
 
               <p className="mt-6 max-w-xl text-base md:text-lg text-ink-dim">
-                I&apos;m I'm Fallen, a Lead Systems Architect, Operations
+                I'm Fallen, a Lead Systems Architect, Operations
                 Manager, and a developer, across TimeNetwork Solaryn Network,
                 and FreshSMP I build structured, scalable systems for Minecraft 
                 networks and community-driven projects. Based in {site.location}.
