@@ -7,7 +7,7 @@ import { projects } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "Recon tooling, plugin architecture, economy systems and a solo game project — the work behind Fallen, TimeNetwork and Solaryn Network.",
+    "Recon tooling, plugin architecture, economy systems and a solo game project the work behind Fallen, TimeNetwork and Solaryn Network.",
 };
 
 export default function ProjectsPage() {
@@ -16,14 +16,13 @@ export default function ProjectsPage() {
       <section className="pt-20 pb-16 md:pt-24">
         <Container>
           <RevealSection>
-            <span className="mono-label">{"// Projects"}</span>
+            <span className="mono-label">{"Projects"}</span>
             <h1 className="mt-4 max-w-2xl text-4xl md:text-5xl font-medium text-balance">
-              Tools and systems, built to be reused.
+              Tools and systems created and designed by yours truly.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-dim">
-              A mix of internal infrastructure, personal tooling, and one
-              game built to keep the systems-design habit sharp outside of
-              network work.
+            A mix of internal infrastructure and personal tooling projects focused
+            on improving workflow, stability, and systems design outside of network development.
             </p>
           </RevealSection>
         </Container>
