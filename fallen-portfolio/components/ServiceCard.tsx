@@ -27,10 +27,6 @@ export default function ServiceCard({ service }: { service: Service }) {
           ))}
         </ul>
       </div>
-
-      <div className="mt-6 border-t border-line-soft pt-4">
-        <StatusBadge label={service.availability} />
-      </div>
     </div>
   );
 }
