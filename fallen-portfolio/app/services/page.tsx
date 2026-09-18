@@ -8,7 +8,7 @@ import { serviceGroups } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Server setup, network architecture, operations and security work — scoped and priced up front.",
+    "Server setup, network architecture, operations and security work scoped and priced up front.",
 };
 
 export default function ServicesPage() {
@@ -17,15 +17,15 @@ export default function ServicesPage() {
       <section className="pt-20 pb-16 md:pt-24">
         <Container>
           <RevealSection>
-            <span className="mono-label">{"// Services"}</span>
+            <span className="mono-label">{"Services"}</span>
             <h1 className="mt-4 max-w-2xl text-4xl md:text-5xl font-medium text-balance">
-              Work I take on, scoped and priced up front.
+              My prices for strong work.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-dim">
               Minecraft server setup, network architecture, operations and
-              security work — broken into fixed packages so you know exactly
+              security work broken into fixed packages so you know exactly
               what you&apos;re getting before you commit. Something that
-              doesn&apos;t fit neatly into one of these? Ask anyway — most of
+              doesn&apos;t fit neatly into one of these? Ask anyway most of
               this started as a one-off too.
             </p>
           </RevealSection>
@@ -45,7 +45,7 @@ export default function ServicesPage() {
                 </h2>
                 {group.featured ? (
                   <span className="rounded-full border border-accent/40 px-2.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] text-accent">
-                    Most popular
+                    Most Purchased
                   </span>
                 ) : null}
               </div>
