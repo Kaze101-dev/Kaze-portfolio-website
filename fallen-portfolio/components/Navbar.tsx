@@ -15,16 +15,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-line-soft bg-bg/80 backdrop-blur-md">
       <Container>
         <div className="flex h-16 items-center justify-between">
-          <Link
-            href="/"
-            className="flex items-center gap-2 font-display text-lg tracking-tight text-ink"
-            onClick={() => setOpen(false)}
-          >
-            <span className="flex h-6 w-6 items-center justify-center rounded-sm border border-accent/40 bg-accent-soft font-mono text-[11px] text-accent">
-              F
-            </span>
-            Fallen
-          </Link>
+         <Link
+  href="/"
+  className="flex items-center gap-2 font-display text-lg tracking-tight text-ink"
+  onClick={() => setOpen(false)}
+>
+  <span className="font-mono text-lg font-medium text-accent">
+    {">_"}
+  </span>
+  Fallen
+</Link>
 
           <nav className="hidden md:flex items-center gap-8">
             {nav.map((item) => {
