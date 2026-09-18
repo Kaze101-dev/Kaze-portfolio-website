@@ -107,7 +107,7 @@ export const projects: Project[] = [
     category: "60k+ Members Minecraft server",
     description:
       "A structured multi server Minecraft network featuring Survival, Lifesteal, and SkyGen. Built with strong systems, polished gameplay loops, and a solid technical framework.",
-    tags: ["Python", "Server", "My systems", "60k+ Players"],
+    tags: ["Python", "Server Architecture", "Systems Design", "60k+ Players"],
     status: "Personal",
   },
   {
@@ -115,7 +115,7 @@ export const projects: Project[] = [
     category: "Backend Development",
     description:
       "Work across plugin architecture, gameplay systems, staff operations, and server optimisation focused on building reliable, strong infrastructure for a live player base.",
-    tags: ["Java / Kotlin", "Architecture", "Dev"],
+    tags: ["Java / Kotlin", "Architecture", "Development"],
     status: "Internal",
   },
   {
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     category: "Website Penetration",
     description:
       "A structured pentesting methodology and toolset used for recon, enumeration, and access‑control testing in real security engagements.",
-    tags: ["Java / Kotlin", "Concurrency", "Economy Systems"],
+    tags: ["Pentesting", "Security", "Methodology"],
     status: "Internal",
   },
   {
