@@ -139,7 +139,7 @@ export const projects: Project[] = [
 export const contact = {
   discord: "fallen",
   discordDisplay: "@fallen",
-  email: "hello@fallen.dev",
+  email: "fallen.dev@outlook.com",
 };
 
 export type Service = {
