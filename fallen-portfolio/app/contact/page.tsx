@@ -15,7 +15,7 @@ export default function ContactPage() {
       <Container>
         <div className="grid gap-16 md:grid-cols-[1fr_0.8fr] md:gap-24">
           <RevealSection>
-            <span className="mono-label">{"// Contact"}</span>
+            <span className="mono-label">{"Contact"}</span>
             <h1 className="mt-4 text-4xl md:text-5xl font-medium text-balance">
               Discord&apos;s the fastest way to reach me.
             </h1>
