@@ -31,8 +31,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col-reverse gap-3 border-t border-line-soft pt-6 text-xs text-ink-faint md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} Fallen. Built from scratch, not a template.</p>
-          <p className="font-mono">STATUS — OPERATIONAL</p>
+          <p>© {new Date().getFullYear()} Fallen. Built from scratch.</p>
+          <p className="font-mono">STATUS — Free as a Bee.</p>
         </div>
       </Container>
     </footer>
