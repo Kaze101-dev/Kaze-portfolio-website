@@ -103,34 +103,34 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "Vantage",
-    category: "Reconnaissance Toolkit",
+    name: "FreshSMP",
+    category: "60k+ Members Minecraft server",
     description:
-      "A command-line recon toolkit built for the scoping phase of an engagement — subdomain enumeration, service fingerprinting and exposure mapping in one pass instead of five separate tools stitched together by hand.",
-    tags: ["Python", "Networking", "CLI", "Security"],
+      "A structured multi server Minecraft network featuring Survival, Lifesteal, and SkyGen. Built with strong systems, polished gameplay loops, and a solid technical framework.",
+    tags: ["Python", "Server", "My systems", "60k+ Players"],
     status: "Personal",
   },
   {
-    name: "Core",
-    category: "Shared Systems Framework",
+    name: "Solaryn Network Development",
+    category: "Backend Development",
     description:
-      "The framework underneath both TimeNetwork and Solaryn Network's plugin ecosystems — a shared data layer, permission model and messaging bus, so a new plugin doesn't reinvent account handling or cross-server communication from scratch.",
-    tags: ["Java / Kotlin", "Architecture", "Distributed Systems"],
+      "Work across plugin architecture, gameplay systems, staff operations, and server optimisation focused on building reliable, strong infrastructure for a live player base.",
+    tags: ["Java / Kotlin", "Architecture", "Dev"],
     status: "Internal",
   },
   {
-    name: "Ledger",
-    category: "Cross-Server Economy Plugin",
+    name: "Pentesting Toolkit / Recon Workflow",
+    category: "Website Penetration",
     description:
-      "A currency and economy system that stays consistent across every server in a network — no split-brain balances, no race conditions when a player moves servers mid-transaction. Built on top of Core's data layer.",
+      "A structured pentesting methodology and toolset used for recon, enumeration, and access‑control testing in real security engagements.",
     tags: ["Java / Kotlin", "Concurrency", "Economy Systems"],
     status: "Internal",
   },
   {
-    name: "Fault Line",
+    name: "Game Development (Steam Project)",
     category: "Solo Game Project",
     description:
-      "A short, systems-heavy 2D game built solo — movement, physics, inventory and save state, all written from scratch. Built to practice designing systems that stay legible as they grow, the same problem as everything else, just with a jump button.",
+      "Early game development work exploring systems design, workflow planning, and long‑term project structure.",
     tags: ["Godot / GDScript", "Game Design", "Systems"],
     status: "Personal",
   },
