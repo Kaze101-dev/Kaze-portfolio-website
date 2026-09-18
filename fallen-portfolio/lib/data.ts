@@ -18,7 +18,7 @@ export const nav = [
   { label: "About", href: "/about" },
   { label: "Experience", href: "/experience" },
   { label: "Projects", href: "/projects" },
-  { label: "Blog", href: "/blog" },
+  { label: "Services", href: "/services" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -55,7 +55,7 @@ export const experience: Experience[] = [
     role: "Lead Systems Architect & Operations Manager",
     status: "Resigned",
     summary:
-      "As FreshSMP’s Lead Systems Architect & Operations Manager, I handle both the tech and the day‑to‑day operations. I set the direction, build the systems our devs work inside, and make the calls on staffing, workflow, and priorities. My focus is making sure things keep moving even when I’m offline, teams should run because the structure is solid, not because I’m watching over them.",
+      "As FreshSMP's Lead Systems Architect & Operations Manager, I handle both the tech and the day‑to‑day operations. I set the direction, build the systems our devs work inside, and make the calls on staffing, workflow, and priorities. My focus is making sure things keep moving even when I'm offline, teams should run because the structure is solid, not because I'm watching over them.",
     tags: ["Architecture", "Operations", "Leadership"],
   },
   {
@@ -87,7 +87,7 @@ export const experience: Experience[] = [
     role: " Developer & Owner",
     status: "Active",
     summary:
-      "FracturedSMP is My multi‑server Minecraft network built with a structured technical framework, scalable systems, and a polished gameplay experience. I lead the architecture, gameplay design, and operations, creating stable, player‑focused environments across Survival, Lifesteal, SkyGen, and the network’s core infrastructure.",
+      "FracturedSMP is My multi‑server Minecraft network built with a structured technical framework, scalable systems, and a polished gameplay experience. I lead the architecture, gameplay design, and operations, creating stable, player‑focused environments across Survival, Lifesteal, SkyGen, and the network's core infrastructure.",
     tags: ["Ownership", "Systems", "Prototyping"],
   },
 ];
@@ -141,3 +141,139 @@ export const contact = {
   discordDisplay: "@fallen",
   email: "hello@fallen.dev",
 };
+
+export type Service = {
+  name: string;
+  price: string;
+  description: string;
+  features: string[];
+  availability: string;
+};
+
+export type ServiceGroup = {
+  title: string;
+  featured?: boolean;
+  services: Service[];
+};
+
+export const serviceGroups: ServiceGroup[] = [
+  {
+    title: "Foundation Packages",
+    featured: true,
+    services: [
+      {
+        name: "Starter Server Setup",
+        price: "$120",
+        description: "Perfect for small servers or first-time owners.",
+        features: [
+          "Full plugin configuration",
+          "Permissions setup",
+          "Basic optimisation",
+          "Clean, stable foundation ready for players",
+        ],
+        availability: "Open",
+      },
+      {
+        name: "Advanced Server Build",
+        price: "$250",
+        description: "For servers wanting a polished, scalable setup.",
+        features: [
+          "Full configuration + gameplay tuning",
+          "Performance optimisation",
+          "Crash/lag diagnosis",
+          "System structure for long-term growth",
+        ],
+        availability: "Open",
+      },
+      {
+        name: "Network Architecture Package",
+        price: "$350",
+        description:
+          "For multi-server networks (Survival, Lifesteal, SkyGen, etc.).",
+        features: [
+          "Technical architecture plan",
+          "Cross-server systems design",
+          "Progression + economy framework",
+          "Operational workflow recommendations",
+        ],
+        availability: "Open",
+      },
+    ],
+  },
+  {
+    title: "Operations & Staff Packages",
+    services: [
+      {
+        name: "Staff Framework Package",
+        price: "$180",
+        description: "For servers needing structure and stability.",
+        features: [
+          "Staff hierarchy",
+          "Punishment system",
+          "Workflow + documentation",
+          "Operational processes",
+        ],
+        availability: "Open",
+      },
+      {
+        name: "Monthly Operations Management",
+        price: "$450/mo",
+        description: "Hands-on management for servers that want stability.",
+        features: [
+          "Updates + monitoring",
+          "Issue response",
+          "Staff oversight",
+          "Weekly optimisation",
+        ],
+        availability: "Open",
+      },
+    ],
+  },
+  {
+    title: "Security & Performance Packages",
+    services: [
+      {
+        name: "Performance Boost Package",
+        price: "$150",
+        description: "Fix lag, crashes, and instability.",
+        features: [
+          "Profiling",
+          "Plugin load analysis",
+          "Optimisation",
+          "Actionable fixes",
+        ],
+        availability: "Open",
+      },
+      {
+        name: "Security Audit / Pentest",
+        price: "$200",
+        description:
+          "For websites or Minecraft servers needing security checks.",
+        features: [
+          "Recon",
+          "Enumeration",
+          "Access-control testing",
+          "Vulnerability report",
+        ],
+        availability: "Open",
+      },
+    ],
+  },
+  {
+    title: "Consulting",
+    services: [
+      {
+        name: "Technical Direction Session",
+        price: "$75/hr",
+        description: "For owners who need clarity, planning, or guidance.",
+        features: [
+          "Systems review",
+          "Gameplay loop analysis",
+          "Scaling advice",
+          "Roadmap planning",
+        ],
+        availability: "Open",
+      },
+    ],
+  },
+];
