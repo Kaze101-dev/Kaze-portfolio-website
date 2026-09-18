@@ -1,5 +1,4 @@
 import { Service } from "@/lib/data";
-import StatusBadge from "./StatusBadge";
 
 export default function ServiceCard({ service }: { service: Service }) {
   return (
